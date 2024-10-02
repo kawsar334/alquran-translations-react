@@ -1,0 +1,40 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+$maincolor:rgb(23, 10, 54);
+$maincolor: black;
+$rgb:rgb(0,0,0,0.3);
+
+$white:white;
+
+
+
+
+.app{
+    // background-color: white;
+    // color: rgb(48, 46, 46);  
+    // background-color: black;
+    // color: lightgray;  
+   
+}
+.no_scrollbar::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar for Chrome, Safari, and Opera */
+}
+
+.no_scrollbar {
+    -ms-overflow-style: none;
+    /* Hide scrollbar for IE and Edge */
+    scrollbar-width: none;
+    /* Hide scrollbar for Firefox */
+}
+
+@mixin mobile{
+    @media (max-width:#{778px}) {
+        @content
+    }
+}
