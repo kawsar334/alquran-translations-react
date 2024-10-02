@@ -17,7 +17,7 @@ React.js, Tilwind css, react-router-dom , react functional component, React hook
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/quran-multilingual.git
+   git clone https://github.com/kawsar334/alquran-translations-react.git
 
 ## Running Tests
 
@@ -36,7 +36,7 @@ To run tests, run the following command
 
 ## Authors
 
-- [Kawsar firoz](https://www.github.com/octokatherine)
+- [Kawsar firoz](https://github.com/kawsar334)
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://kawsar334.github.io/kawsars_portfolio/)
