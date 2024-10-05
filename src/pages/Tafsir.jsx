@@ -4,8 +4,7 @@ import { useParams } from 'react-router-dom';
 
 const Tafsir = () => {
     const { ayahId } = useParams(); // Get ayahId from URL
-    const [tafsir, setTafsir] = useState('');
-    console.log(ayahId)
+    const [tafsir, setTafsir] = useState('tafsir will  update');
 
     useEffect(() => {
         const getTafsir = async () => {
@@ -23,9 +22,11 @@ const Tafsir = () => {
     }, [ayahId]);
 
     return (
-        <div className="container mx-auto p-4">
+        <div className="container mx-auto p-4 text-white">
             <h1 className="text-2xl font-bold mb-4">Tafsir for Ayah {ayahId}</h1>
             <p>{tafsir}</p> {/* Display the Tafsir here */}
+
+             
         </div>
     );
 };

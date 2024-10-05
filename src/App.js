@@ -9,16 +9,12 @@ import Tafsir from './pages/Tafsir'
 import NotFoundPage from './pages/404'
 const App = () => {
   return (
-    <div className='overflow-x-hidden'>
+    <div className='overflow-x-hidden  bg-[rgba(0,0,0,0.8)]'>
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/details/:id' element={<Details/>} />
         <Route path='/tafsir/:id' element={<Tafsir />} />
         <Route path='*' element={<NotFoundPage />} />
-
-
-
-
       </Routes>
     </div>
   )
